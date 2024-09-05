@@ -5,4 +5,4 @@ from .models import Voetbalspelers
 admin.site.register(Post)
 admin.site.register(Voetbalspelers)
 
-# Register your models here.
+
