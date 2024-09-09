@@ -1,14 +1,39 @@
 body {
-    background-color: orange;
+    background-color: brown;
     color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: orange;
+}
+
+footer {
+    background-color: orange;
+    height: 100px;
 }
 
 h1 {
-    color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 50px;
+    padding: 0px;
+    line-height: 150px;
+}
+
+a {
+    color: orange;
 }
 
 article {
     width: 500px;
-    margin-bottom: 40px;
-    border: 3px solid red;
+    margin: 40px 0px 40px 0px;
+    border: 3px solid white;
+}
+
+section {
+    background-color: pink;
+    width: max-content;
+    margin: 40px 40px 40px 800px;
 }
