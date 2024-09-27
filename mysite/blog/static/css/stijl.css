@@ -1,3 +1,8 @@
+/* Bij de browser console log heb ik bij 'Network' 
+de 'Disable cache' aangevinkt en 'ctrl + r' ingedrukt
++ de pagina opnieuw geladen
+om de veranderingen te kunnen opmerken */
+
 body {
     background-color: brown;
     color: black;
@@ -7,11 +12,13 @@ body {
 
 header {
     background-color: orange;
+    margin-bottom: 40px;
 }
 
 footer {
     background-color: orange;
     height: 100px;
+    margin-top: 40px;
 }
 
 h1 {
@@ -30,9 +37,13 @@ article {
     background-color: pink;
     width: 500px;
     border: 3px solid whitesmoke;
+    display: table;
+    margin: 0px 200px 0px auto;
 }
 
-section {
-    display: table;
-    margin: 40px 200px 40px auto;
+aside {
+    width: 500px;
+    height: 40px;
+    margin: 0px 200px 0px auto;
+    background-color: pink;
 }

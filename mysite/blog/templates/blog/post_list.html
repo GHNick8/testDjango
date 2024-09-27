@@ -15,15 +15,14 @@
         </header>
         {% block content %}
         {% for post in posts %}
-        <section>
-            <article class="post">
-                <time class="date">
-                    {{ post.published_date }}
-                </time>
-                <h2><a href="">{{ post.title }}</a></h2>
-                <p>{{ post.text|linebreaksbr }}</p>
-            </article>
-        </section>
+        <article class="post">
+            <time class="date">
+                {{ post.published_date }}
+            </time>
+            <h2><a href="">{{ post.title }}</a></h2>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </article>
+        <aside></aside>
         {% endfor %}
         {% endblock %}
         <footer></footer>
