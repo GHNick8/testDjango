@@ -1,8 +1,3 @@
-/* Bij de browser console log heb ik bij 'Network' 
-de 'Disable cache' aangevinkt en 'ctrl + r' ingedrukt
-+ de pagina opnieuw geladen
-om de veranderingen te kunnen opmerken */
-
 body {
     background-color: brown;
     color: black;
@@ -42,6 +37,7 @@ article {
 }
 
 aside {
+    position: relative;
     width: 500px;
     height: 40px;
     margin: 0px 200px 0px auto;
